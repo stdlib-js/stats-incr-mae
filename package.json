@@ -1,0 +1,50 @@
+{
+  "name": "@stdlib/stats-incr-mae",
+  "version": "0.0.0",
+  "description": "Compute the mean absolute error (MAE) incrementally.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-incr-mae.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "average",
+    "avg",
+    "mean",
+    "arithmetic mean",
+    "absolute",
+    "error",
+    "err",
+    "mae",
+    "deviation",
+    "difference",
+    "diff",
+    "delta",
+    "incremental",
+    "accumulator",
+    "time series",
+    "timeseries",
+    "forecasting",
+    "forecast",
+    "manhattan",
+    "cityblock",
+    "city-block",
+    "distance",
+    "dist"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
