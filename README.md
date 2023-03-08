@@ -30,10 +30,14 @@ The [mean absolute error][mean-absolute-error] is defined as
 
 <!-- <equation class="equation" label="eq:mean_absolute_error" align="center" raw="\operatorname{MAE}  = \frac{\sum_{i=0}^{n-1} |y_i - x_i|}{n}" alt="Equation for the mean absolute error."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{MAE}  = \frac{\sum_{i=0}^{n-1} |y_i - x_i|}{n}" data-equation="eq:mean_absolute_error">
+```math
+\operatorname{MAE}  = \frac{\sum_{i=0}^{n-1} |y_i - x_i|}{n}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{MAE}  = \frac{\sum_{i=0}^{n-1} |y_i - x_i|}{n}" data-equation="eq:mean_absolute_error">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@49d8cabda84033d55d7b8069f19ee3dd8b8d1496/lib/node_modules/@stdlib/stats/incr/mae/docs/img/equation_mean_absolute_error.svg" alt="Equation for the mean absolute error.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -211,7 +215,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
