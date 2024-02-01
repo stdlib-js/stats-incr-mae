@@ -56,38 +56,32 @@ The [mean absolute error][mean-absolute-error] is defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-mae
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-incrmae = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mae@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var incrmae = require( 'path/to/vendor/umd/stats-incr-mae/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mae@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.incrmae;
-})();
-</script>
+var incrmae = require( '@stdlib/stats-incr-mae' );
 ```
 
 #### incrmae()
@@ -139,14 +133,9 @@ m = accumulator();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mae@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var incrmae = require( '@stdlib/stats-incr-mae' );
 
 var accumulator;
 var v1;
@@ -163,11 +152,6 @@ for ( i = 0; i < 100; i++ ) {
     accumulator( v1, v2 );
 }
 console.log( accumulator() );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -254,8 +238,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/stats-incr-mae/tree/deno
+[deno-readme]: https://github.com/stdlib-js/stats-incr-mae/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/stats-incr-mae/tree/umd
+[umd-readme]: https://github.com/stdlib-js/stats-incr-mae/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/stats-incr-mae/tree/esm
+[esm-readme]: https://github.com/stdlib-js/stats-incr-mae/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-incr-mae/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-incr-mae/main/LICENSE
@@ -264,13 +251,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape/tree/umd
+[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape
 
-[@stdlib/stats/incr/me]: https://github.com/stdlib-js/stats-incr-me/tree/umd
+[@stdlib/stats/incr/me]: https://github.com/stdlib-js/stats-incr-me
 
-[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean/tree/umd
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
 
-[@stdlib/stats/incr/mmae]: https://github.com/stdlib-js/stats-incr-mmae/tree/umd
+[@stdlib/stats/incr/mmae]: https://github.com/stdlib-js/stats-incr-mmae
 
 <!-- </related-links> -->
 
